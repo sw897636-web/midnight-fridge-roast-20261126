@@ -7,7 +7,7 @@ import { mkdirSync, writeFileSync } from "node:fs";
 import { dirname } from "node:path";
 
 const ENTRY =
-  "My fridge locks at midnight \"for my health,\" then guards two cold pizza slices like the crown jewels — from me, the only person who ever paid for them.";
+  "Fridge, you light up at 2 a.m. like Broadway, and the whole cast is one pickle, half a lemon, and Dave's yogurt labeled 'I WILL KNOW.' Dave knew.";
 
 const outPath = "/output/entry.txt";
 mkdirSync(dirname(outPath), { recursive: true });
